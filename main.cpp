@@ -10,10 +10,10 @@ class Solicitud{
 
     public:
         friend std::ostream & operator<<(std::ostream &O, Solicitud &x){
-            O<<"\n Nombre del alumno: "<<x.nombre<<std::endl;
-            O<<"\n Carrera del alumno: "<<x.carrera<<std::endl;
-            O<<"\n Preparatoria procedente: "<<x.prepa<<std::endl;
-            O<<"\n Promedio del alumno: "<<x.promedio<<std::endl;
+            O<<"Nombre del alumno: "<<x.nombre<<std::endl;
+            O<<"Carrera del alumno: "<<x.carrera<<std::endl;
+            O<<"Preparatoria procedente: "<<x.prepa<<std::endl;
+            O<<"Promedio del alumno: "<<x.promedio<<std::endl;
             return O;
         }
         friend std::istream & operator>>(std::istream &O, Solicitud &x){
